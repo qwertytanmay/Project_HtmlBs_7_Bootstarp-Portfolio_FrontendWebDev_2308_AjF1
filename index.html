@@ -21,6 +21,29 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
   </head>
+  <style>
+    a{
+      text-decoration: none;
+      color: black;
+    }
+    h6{
+      margin-bottom: 2px;
+    }
+    p{
+      margin-bottom: 0px;
+      cursor: default;
+    }
+
+    /* contacts */
+    #contacts i{
+      font-size: 1.5rem;
+    }
+
+    #downloads i{
+      font-size: 1.5rem;
+    }
+
+  </style>
   <body>
     <!-- cdn BootstrapCss-->
     <script
@@ -56,13 +79,16 @@
               <a class="nav-link text-white" href="#about">About</a>
             </li>
             <li class="nav-item text-white">
-              <a class="nav-link text-white" href="#contact">Contact</a>
+              <a class="nav-link text-white" href="#contacts">Contacts</a>
             </li>
             <li class="nav-item text-white">
               <a class="nav-link text-white" href="#projects">Projects</a>
             </li>
             <li class="nav-item text-white">
               <a class="nav-link text-white" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item text-white">
+              <a class="nav-link text-white" href="#academics">Academics</a>
             </li>
           </ul>
         </div>
@@ -85,7 +111,7 @@
         <img
           class="col-sm-12 col-md-6 img-fluid rounded"
           src="./assets/profileDP.jpeg"
-          alt="profile-pic"
+          alt="profile-pic" style="pointer-events: none;"
         />
         <div class="col-sm-12 col-md-6 container">
           <h6 class="pt-2">
@@ -105,11 +131,11 @@
     <!-- Projects -->
     <section class="mt-5 mb-2 py-5" id="projects" style="background-color: rgb(245, 249, 255);">
       <h1 class="text-center">Projects</h1>
-      <div class="container my-3 d-flex flex-wrap justify-content-center align-items-center gap-5" style="overflow-y: scroll; height: 40rem;">
+      <div class="container my-3 d-flex flex-wrap justify-content-center align-items-center gap-5" style="overflow-y: scroll; height: 41rem;">
         
         <!-- Bs Project Card -->
-        <div class="card" style="max-width: 30rem; height: 29rem;">
-          <img src="./assets/blinkit.jpg" class="card-img-top" alt="..." height="50%" style="filter:blur(2px);">
+        <div class="card" style="max-width: 30rem; height: 30rem;">
+          <img src="./assets/blinkit.jpg" class="card-img-top" alt="..." height="50%" style="filter:blur(2px); pointer-events: none;">
           <div class="card-body d-flex flex-column justify-content-between">
             <h5 class="card-title">Blinkit-Clone</h5>
             <p class="card-text text-secondary">"Blinkit" - A Replica of Bilinkit webpage - one of the popular e-commerce grocery marketplace - Frontend Web Dev Project.</p>
@@ -119,8 +145,8 @@
         </div>
 
         <!-- Bs Project Card -->
-        <div class="card" style="max-width: 30rem; height: 29rem;">
-          <img src="./assets/dfdelivery.jpg" class="card-img-top" alt="..." height="50%" style="filter:blur(2px);">
+        <div class="card" style="max-width: 30rem; height: 30rem;">
+          <img src="./assets/dfdelivery.jpg" class="card-img-top" alt="..." height="50%" style="filter:blur(2px); pointer-events: none;">
           <div class="card-body d-flex flex-column justify-content-between">
             <h5 class="card-title">DF-Delivery</h5>
             <p class="card-text text-secondary">"DF-Delivery" - Build from scratch, A eyecatchy landing-page for a food delivery platform - Frontend Web Dev Project.</p>
@@ -130,8 +156,8 @@
         </div>
 
         <!-- Bs Project Card -->
-        <div class="card" style="max-width: 30rem; height: 29rem;">
-          <img src="./assets/Acciojob.jpg" class="card-img-top" alt="..." height="50%" style="filter:blur(2px);">
+        <div class="card" style="max-width: 30rem; height: 30rem;">
+          <img src="./assets/Acciojob.jpg" class="card-img-top" alt="..." height="50%" style="filter:blur(2px); pointer-events: none;">
           <div class="card-body d-flex flex-column justify-content-between">
             <h5 class="card-title">AccioJob-Clone - Learning Platform</h5>
             <p class="card-text text-secondary">"AccioJob" - A replica landing page online learning platform for IT skill development with  different courses offered- Frontend Web Dev Project.</p>
@@ -141,8 +167,8 @@
         </div>
         
         <!-- Bs Project Card -->
-        <div class="card" style="max-width: 30rem; height: 29rem;">
-          <img src="./assets/spotify.jpg" class="card-img-top" alt="..." height="50%" style="filter:blur(2px);">
+        <div class="card" style="max-width: 30rem; height: 30rem;">
+          <img src="./assets/spotify.jpg" class="card-img-top" alt="..." height="50%" style="filter:blur(2px); pointer-events: none;">
           <div class="card-body d-flex flex-column justify-content-between">
             <h5 class="card-title">Spotify-Clone</h5>
             <p class="card-text text-secondary">"Spotify" Replica Page -> A popular online music streaming app on internet-> A frontend web dev project</p>
@@ -151,8 +177,39 @@
           </div>
         </div>
         
-        
-        
+        <!-- Bs Project Card -->
+        <div class="card" style="max-width: 30rem; height: 30rem;">
+          <img src="./assets/beagle dog.jpg" class="card-img-top" alt="..." height="50%" style="filter:blur(2px); pointer-events: none;">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <h5 class="card-title">Beagle</h5>
+            <p class="card-text text-secondary">"Beagle" - A dog breed derscription page - Frontend Web Dev Project (utilising concetps of HTML).</p>
+            <p class="card-text text-secondary">Tech Stack: ●HTML only</p>
+            <a href="https://tanmay-html-1-beagledog.netlify.app" target="_blank" class="btn btn-primary" style="width: fit-content;">Visit Now</a>
+          </div>
+        </div>
+
+        <!-- Bs Project Card -->
+        <div class="card" style="max-width: 30rem; height: 30rem;">
+          <img src="./assets/library.jpg" class="card-img-top" alt="..." height="50%" style="filter:blur(2px); pointer-events: none;">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <h5 class="card-title">Library System</h5>
+            <p class="card-text text-secondary">"Library" - A library system landing page having basic features of a library managements incorporated in well manner. Where HTML forms and CSS concepts like flex are utilised and revised.</p>
+            <p class="card-text text-secondary">Tech Stack: ●HTML ●CSS</p>
+            <a href="https://tanmay-htmlcss-2-librarysystem.netlify.app" target="_blank" class="btn btn-primary" style="width: fit-content;">Visit Now</a>
+          </div>
+        </div>
+
+        <!-- Bs Project Card -->
+        <div class="card" style="max-width: 30rem; height: 30rem;">
+          <img src="./assets/netflix.jpg" class="card-img-top" alt="..." height="50%" style="filter:blur(2px); pointer-events: none;">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <h5 class="card-title">Netflix - Clone</h5>
+            <p class="card-text text-secondary">"Netflix" - A replica landing page of the worldwide rank 1 ott platform, to enjoy super entertaining bunch of web series and movies. We made this utilising concepts of HTML, CSS and Bootstrap.</p>
+            <p class="card-text text-secondary">Tech Stack: ●HTML ●CSS ●Bootstrap</p>
+            <a href="https://my-ntf-replica.netlify.app" target="_blank" class="btn btn-primary" style="width: fit-content;">Visit Now</a>
+          </div>
+        </div>
+
       </div>
       
     </section>
@@ -427,37 +484,129 @@
       </div>
     </section>
 
+    <!-- Academics -->
+    <section class="container py-5" id="academics">
+      <h1 class="text-center pb-4">Academics & Certifications</h1>
+      <div class="container">
+
+        <!-- row-1 -->
+        <hr>
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <p><span style="color: violet;">● </span><b>B. Tech (Electrical Engineering)</b></p>
+            <p>C.S.V.T.U., Bhilai, CG</p>
+          </div>
+        <div class="col-md-6 col-sm-12">
+          <p class="text-secondary">Pass- 2021</p>
+          <p>CPI- 8.68 | Percent- 78.53%</p>
+        </div>
+        </div>
+
+        <!-- row-2 -->
+        <hr>
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <p><span style="color: rgb(47, 180, 163);">● </span><b>Diploma in Engineering (Electrical Engineering)</b></p>
+            <p>C.S.V.T.U., Bhilai, CG</p>
+          </div>
+        <div class="col-md-6 col-sm-12">
+          <p class="text-secondary">Pass- 2015</p>
+          <p>CPI- 7.78 | Percent- 70.48%</p>
+        </div>
+        </div>
+
+        <!-- row-2 -->
+        <hr>
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <p><span style="color: rgb(255, 175, 56);">● </span><b>12th std (Senior School Certificate Examination)</b></p>
+            <p>C.B.S.E.</p>
+          </div>
+        <div class="col-md-6 col-sm-12">
+          <p class="text-secondary">Pass- 2012</p>
+          <p>Percent- 58.60%</p>
+        </div>
+        </div>
+
+      </div>
+    </section>
+
     <!-- contact -->
-    <section class="container" id="form-container">
-      <h1>Contact</h1>
-      <div class="col-6 d-flex flex-column align-items-center">
-        <label class="d-block w-100 text-start mt-3 form-label" for="name"
-          >Name</label
-        >
-        <input
-          type="text"
-          class="form-control"
-          id="name"
-          placeholder="Tanmay Deshmukh"
-        />
-        <label class="d-block w-100 text-start mt-3 form-label" for="email"
-          >Email</label
-        >
-        <input
-          type="email"
-          class="form-control"
-          id="email"
-          placeholder="qwertytanmay@gmail.com"
-        />
-        <label class="d-block w-100 text-start mt-3 form-label" for="message"
-          >Message</label
-        >
-        <textarea
-          class="form-control"
-          id="message"
-          placeholder="Write your message here.."
-        ></textarea>
-        <button class="btn btn-primary w-75 btn-lg">Submit</button>
+    <section class="py-5 bg-light" id="contacts">
+      <h1 class="text-center pb-4">Contacts</h1>
+      <div class="container">
+        <ul class="list-group" style="list-style: none;">
+
+          <li class="list-group-item">Tanmay Deshmukh</li>
+
+          <li class="list-group-item">
+            <i class="bi bi-telephone"></i> 
+            +91 99-9379-9379
+            <div>
+              
+            </div>
+          </li>
+
+          <li class="list-group-item">
+            <i class="bi bi-envelope-at-fill"></i>
+             qwertytanmay@gmail.com
+             <div>
+                <a href="mailto:qwertytanmay@gmail.com" target="_blank">
+                  <i class="bi bi-envelope-plus"></i>
+                  <div class="mailMe bg-light border rounded text-secondary" style="display: inline-block; width: 60%; height: 5rem; cursor:text">
+                  Drop your message...
+                  </div>
+                </a>
+             </div>
+          </li>
+
+          <li class="list-group-item list-group-item-primary text-center">
+            <button class="btn btn-light rounded-circle">
+              <a href="https://wa.me/919993799379" target="_blank">
+                 <i class="bi bi-whatsapp"></i>
+              </a>
+            </button>
+            <button class="btn btn-light rounded-circle">
+              <a href="https://www.linkedin.com/in/tanmay-deshmukh-811239189/" target="_blank">
+                <i class="bi bi-linkedin"></i>
+              </a>
+            </button>
+            <button class="btn btn-light rounded-circle">
+              <a href="https://github.com/qwertytanmay" target="_blank">
+                <i class="bi bi-github"></i>
+              </a>
+            </button>
+          </li>
+        </ul>
+        
+        
+
+        
+        <div class="d-flex flex-wrap">
+          
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- downloads -->
+    <section class="py-5" id="downloads">
+      <h1 class="text-center">Downloads</h1>
+      <div class="container">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Document</th>
+              <th><i class="bi bi-paperclip"></i></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span style="color: violet;">● </span>My Resume</td>
+              <td><a href="./assets/cv-Exp-WebDev.pdf"><i class="bi bi-file-earmark-arrow-down"></i></a></td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </section>
 
